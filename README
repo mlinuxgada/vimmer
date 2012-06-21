@@ -1,15 +1,12 @@
 This is my small vim collection with some base plugins. Simple install instructions:
 
-**$git clone git://github.com/mlinuxgada/vimmer.git**
+$git clone git://github.com/mlinuxgada/vimmer.git
 
-**$cd vimmer**
+$cd vimmer
+$git submodule init
+$git submodule update
 
-**$git submodule init**
+After you move/remove you orig .vimrc and .vim/ just make symlinks to the new ones from vimmer. For example, assuming that you've cloned the vimmer into your home dir/ :
 
-**$git submodule update**
-
-After you move/remove you orig .vimrc and .vim/ just make symlinks to the new ones from **vimmer**. For example, assuming that you've cloned the vimmer into your home dir/ :
-
-**$ln -s ~/vimmer/.vimrc ~/.vimrc**
-
-**$ln -s ~/vimmer/.vim ~/.vim**
+$ln -s ~/vimmer/.vimrc ~/.vimrc
+$ln -s ~/vimmer/.vim ~/.vim
