@@ -10,7 +10,10 @@ set background=dark
 colorscheme mlinuxgada
 "colorscheme solarized
 
+set title
+set mouse=a
 set number
+set autoread
 set history=1000
 set tabstop=4
 set nobackup
