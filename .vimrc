@@ -1,5 +1,5 @@
 " That is my custom .vimrc file
-
+set nocompatible
 call pathogen#infect()
 
 set term=color_xterm
@@ -8,6 +8,7 @@ syntax enable
 set t_Co=256
 set background=dark
 colorscheme mlinuxgada
+"colorscheme solarized
 
 set number
 set history=1000
@@ -31,6 +32,8 @@ cmap <esc>OF <end>
 : nmap <F9> ::NERDTreeTabsToggle
 let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeShowHidden=1
+
+autocmd BufWritePost .vimrc source %
 
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
