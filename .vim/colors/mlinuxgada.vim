@@ -53,7 +53,7 @@ hi Comment guifg=#7d7d7d guibg=NONE guisp=NONE gui=NONE ctermfg=8 ctermbg=NONE c
 "hi Number -- no settings --
 hi Boolean guifg=#0000d7 guibg=NONE guisp=NONE gui=bold ctermfg=20 ctermbg=NONE cterm=bold
 hi Operator guifg=#000000 guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
-hi CursorLine  guifg=NONE guibg=#636363 guisp=NONE gui=NONE ctermfg=NONE ctermbg=103 cterm=NONE
+hi CursorLine  guifg=NONE guibg=#bcbcbc guisp=NONE gui=NONE ctermfg=NONE ctermbg=250 cterm=NONE
 "hi Union -- no settings --
 "hi TabLineFill -- no settings --
 "hi Question -- no settings --
