@@ -2,7 +2,7 @@
 set nocompatible
 call pathogen#infect()
 
-set term=color_xterm
+"set term=color_xterm
 syntax on
 syntax enable
 set t_Co=256
@@ -13,6 +13,7 @@ colorscheme mlinuxgada
 set title
 set mouse=a
 set number
+set cursorline
 set autoread
 set history=1000
 set tabstop=4
