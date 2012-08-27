@@ -16,6 +16,7 @@ set number
 set autoread
 set history=1000
 set tabstop=4
+set shiftwidth=4
 set nobackup
 set noswapfile
 set ignorecase 
