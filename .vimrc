@@ -2,7 +2,11 @@
 set nocompatible
 call pathogen#infect()
 
-"set term=color_xterm
+if has('win32') || has('win64')
+	set
+	runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
+endif
+
 syntax on
 syntax enable
 set t_Co=256
@@ -33,6 +37,14 @@ nmap <esc>OH 0
 nmap <esc>OF $
 imap <esc>OF <esc>$a
 cmap <esc>OF <end>
+
+" map autocomplete shortcut to Ctl + Space
+" both with or without gui
+if has("gui_running")
+	inoremap <C-Space> <C-N>
+else 
+	inoremap <Nul> <C-N>
+endif
 
 : nmap <F9> ::NERDTreeTabsToggle
 let g:nerdtree_tabs_open_on_console_startup=1
