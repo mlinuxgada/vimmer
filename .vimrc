@@ -19,7 +19,7 @@ set mouse=a
 set number
 set cursorline
 set autoread
-set history=1000
+set history=1001
 set tabstop=4
 set shiftwidth=4
 set nobackup
