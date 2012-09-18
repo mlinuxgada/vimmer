@@ -8,7 +8,7 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "Zombie"
+"let g:colors_name = "Zombie"
 
 "hi IncSearch -- no settings --
 "hi WildMenu -- no settings --
