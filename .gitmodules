@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-fuzzyfinder"]
 	path = .vim/bundle/vim-fuzzyfinder
 	url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule ".vim/bundle/vim-synastic"]
+	path = .vim/bundle/vim-synastic
+	url = https://github.com/scrooloose/syntastic.git
