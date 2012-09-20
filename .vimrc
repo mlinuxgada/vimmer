@@ -20,25 +20,35 @@ set background=dark
 colorscheme mlinuxgada
 "colorscheme solarized
 
-set title
-set mouse=a
-set number
-set cursorline
-" for some reason the autoread, the file modification checker 
-" is not workig
-set autoread
-set history=1001
-set tabstop=4
+set title 			" set tile here
+set mouse=a 		" enable mouse
+set number 			" show line numbers 
+set cursorline		" show cursor line 
+set autoread		" reload file if changed externally - stopped for now
+set history=1001	" set history to 1001 ;-)
+set tabstop=4		" tab width settings
 set shiftwidth=4
 
-" get rid of the vim *.swp and backup files
-set nobackup
-set noswapfile
+set nobackup 		" get rid of the vim *.swp and backup files
+set noswapfile		" remove swap file from here 
 
 set ignorecase 
 set smartcase
 set wildmode=list:longest
+
+set tags=tags;/ 	" set tags .. must have ctags already installed  
+
+"folding settings
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+set foldlevel=1         "this is just what i use
+
 filetype plugin indent on
+
+" Casual mappings
+map <silent> <C-a> GVgg
+map <silent> <C-t> :tabnew <CR>
 
 " Home key mapping
 imap <esc>OH <esc>0i
@@ -57,12 +67,14 @@ else
 	inoremap <Nul> <C-N>
 endif
 
+" Plugin mappings here 
 " NERDTree hacks here 
 : nmap <F9> ::NERDTreeTabsToggle
 let g:nerdtree_tabs_open_on_console_startup=1
 let NERDTreeShowHidden=1
 
-autocmd BufWritePost .vimrc source %
+" FuzzyFinder remappings here 
+nmap <silent> <C-p> :FufFile **/<CR>
 
 " the completion for the following filetypes
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
@@ -71,3 +83,7 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+
+autocmd CursorHold * checktime
+autocmd CursorHoldI * checktime
+"set updatetime=50
