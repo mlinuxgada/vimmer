@@ -20,29 +20,29 @@ set background=dark
 colorscheme mlinuxgada
 "colorscheme solarized
 
-set title 			" set tile here
-set mouse=a 		" enable mouse
-set number 			" show line numbers 
-set cursorline		" show cursor line 
-set autoread		" reload file if changed externally - stopped for now
-set history=1001	" set history to 1001 ;-)
-set tabstop=4		" tab width settings
+set title                 " set tile here
+set mouse=a               " enable mouse
+set number                " show line numbers
+set cursorline            " show cursor line
+set autoread              " reload file if changed externally - stopped for now
+set history=1001          " set history to 1001 ;-)
+set tabstop=4             " tab width settings
 set shiftwidth=4
 
-set nobackup 		" get rid of the vim *.swp and backup files
-set noswapfile		" remove swap file from here 
+set nobackup              " get rid of the vim *.swp and backup files
+set noswapfile            " remove swap file from here
 
-set ignorecase 
+set ignorecase
 set smartcase
 set wildmode=list:longest
 
-set tags=tags;/ 	" set tags .. must have ctags already installed  
+set tags=tags;/           " set tags .. must have ctags already installed
 
-"folding settings
-set foldmethod=indent   "fold based on indent
-set foldnestmax=10      "deepest fold is 10 levels
-set nofoldenable        "dont fold by default
-set foldlevel=1         "this is just what i use
+                          " folding settings
+set foldmethod=indent     " fold based on indent
+set foldnestmax=10        " deepest fold is 10 levels
+set nofoldenable          " dont fold by default
+set foldlevel=1           " this is just what i use
 
 filetype plugin indent on
 
@@ -76,6 +76,16 @@ let NERDTreeShowHidden=1
 " FuzzyFinder remappings here 
 nmap <silent> <C-p> :FufFile **/<CR>
 
+" map the Taglist and place it on the left
+map <F12> <Esc>:TlistToggle<CR>:set nonu<CR><C-W>l
+let Tlist_Use_Right_Window  = 1
+let Tlist_Show_One_File     = 1
+let Tlist_Auto_Update		= 1
+let Tlist_Exit_OnlyWindow   = 1
+let Tlist_Close_On_Select   = 1
+" let Tlist_Display_Prototype = 1
+" let Tlist_Auto_Open = 1
+
 " the completion for the following filetypes
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
@@ -86,4 +96,4 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 autocmd CursorHold * checktime
 autocmd CursorHoldI * checktime
-"set updatetime=50
+set updatetime=500
