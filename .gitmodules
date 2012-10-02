@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-tabular"]
 	path = .vim/bundle/vim-tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule ".vim/bundle/vim-svndiff"]
+	path = .vim/bundle/vim-svndiff
+	url = https://github.com/vim-scripts/svndiff.git

@@ -86,6 +86,21 @@ let Tlist_Close_On_Select   = 1
 " let Tlist_Display_Prototype = 1
 " let Tlist_Auto_Open = 1
 
+" SVNDiff pluging section
+
+	let g:svndiff_autoupdate = 1
+	let g:svndiff_one_sign_delete = 1
+
+	noremap <F3> :call Svndiff("prev")<CR>
+	noremap <F4> :call Svndiff("next")<CR>
+	noremap <F5> :call Svndiff("clear")<CR>
+
+	hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
+	hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
+	hi DiffChange   ctermfg=0 ctermbg=3 guibg='yellow'
+
+" end of svndiff plugin customizations
+
 " the completion for the following filetypes
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
