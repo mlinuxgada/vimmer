@@ -58,6 +58,7 @@ nmap <esc>OH 0
 nmap <esc>OF $
 imap <esc>OF <esc>$a
 cmap <esc>OF <end>
+set pastetoggle=<F2>
 
 " map autocomplete shortcut to Ctl + Space
 " both with or without gui
@@ -69,22 +70,22 @@ endif
 
 " Plugin mappings here 
 " NERDTree hacks here 
-: nmap <F9> ::NERDTreeTabsToggle
-let g:nerdtree_tabs_open_on_console_startup=1
-let NERDTreeShowHidden=1
+	: nmap <F9> ::NERDTreeTabsToggle
+	let g:nerdtree_tabs_open_on_console_startup=1
+	let NERDTreeShowHidden=1
 
 " FuzzyFinder remappings here 
-nmap <silent> <C-p> :FufFile **/<CR>
+	nmap <silent> <C-p> :FufFile **/<CR>
 
 " map the Taglist and place it on the left
-map <F12> <Esc>:TlistToggle<CR>:set nonu<CR><C-W>l
-let Tlist_Use_Right_Window  = 1
-let Tlist_Show_One_File     = 1
-let Tlist_Auto_Update		= 1
-let Tlist_Exit_OnlyWindow   = 1
-let Tlist_Close_On_Select   = 1
-" let Tlist_Display_Prototype = 1
-" let Tlist_Auto_Open = 1
+	map <F12> <Esc>:TlistToggle<CR>:set nonu<CR><C-W>l
+	let Tlist_Use_Right_Window  = 1
+	let Tlist_Show_One_File     = 1
+	let Tlist_Auto_Update		= 1
+	let Tlist_Exit_OnlyWindow   = 1
+	let Tlist_Close_On_Select   = 1
+	" let Tlist_Display_Prototype = 1
+	" let Tlist_Auto_Open = 1
 
 " SVNDiff pluging section
 
