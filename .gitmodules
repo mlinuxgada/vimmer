@@ -37,3 +37,18 @@
 [submodule ".vim/bundle/vim-supertab"]
 	path = .vim/bundle/vim-supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule ".vim/bundle/vim-zencoding"]
+	path = .vim/bundle/vim-zencoding
+	url = git://github.com/mattn/zencoding-vim.git
+[submodule ".vim/bundle/vim-snipmate"]
+	path = .vim/bundle/vim-snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule ".vim/bundle/vim-tlib"]
+	path = .vim/bundle/vim-tlib
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule ".vim/bundle/vim-addon-mw-utils"]
+	path = .vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/bundle/vim-snipmate-snippets"]
+	path = .vim/bundle/vim-snipmate-snippets
+	url = https://github.com/honza/snipmate-snippets.git
