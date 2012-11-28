@@ -18,7 +18,6 @@ syntax enable
 set t_Co=256
 set background=dark
 colorscheme mlinuxgada
-"colorscheme solarized
 
 set title                 " set tile here
 set mouse=a               " enable mouse
@@ -36,13 +35,7 @@ set ignorecase
 set smartcase
 set wildmode=list:longest
 
-set tags=tags;/           " set tags .. must have ctags already installed
-
-                          " folding settings
-set foldmethod=indent     " fold based on indent
-set foldnestmax=10        " deepest fold is 10 levels
-set nofoldenable          " dont fold by default
-set foldlevel=1           " this is just what i use
+set tags=./tags,tags;           " set tags .. must have ctags already installed
 
 filetype plugin indent on
 
