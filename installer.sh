@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# install with 
+# install/update tool
 
 
 vimmer_path="$HOME/vimmer"
@@ -19,12 +19,20 @@ fi
 
 # add and install/update the modules here 
 cd $vimmer_path
+
+echo "Install/update vim plugins\n"
+
 git submodule init
 git submodule update
 
 # backup the old .vim, .vimrc and .gvimrc as *.orig
-for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do [ -e $i ] && [ ! -L $i ] && mv $i $i.$today; done
+
+echo "If old .vim, .vimrc and .gvim files exits, backup!\n"
+
+for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do [ -e $i ] && [ ! -L $i ] && mv $i $i.backup; done
 
 # symlink the needed dirs/files 
 ln -s ~/vimmer/.vimrc ~/.vimrc
 ln -s ~/vimmer/.vim ~/.vim
+
+echo "Enjoy using vimmer ;-) \n"

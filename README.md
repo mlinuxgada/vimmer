@@ -15,8 +15,8 @@
 	$ln -s ~/vimmer/.vim ~/.vim 
 
 
-<h3>Simple install read only mode</h3>
+<h3>Simple install in read only mode</h3>
 
-<p>Simple install using curl</p>
+<p><b>vimmer</b> simple install using curl</p>
 
 	$curl https://raw.github.com/mlinuxgada/vimmer/master/installer.sh | sh
