@@ -1,6 +1,12 @@
 <h2>vimmer : mlinuxgada's Vim Distribution</h2>
 
-<h3>Install instructions</h3>
+<h3>Simple install in read only mode with curl</h3>
+
+<p><b>vimmer</b> simple install using curl: </p>
+
+	$curl https://raw.github.com/mlinuxgada/vimmer/master/installer.sh | sh
+
+<h3>Detailed Manual Install instructions</h3>
 
 <p>This is my small vim collection with some base plugins. Simple install instructions:</p>
 
@@ -15,8 +21,3 @@
 	$ln -s ~/vimmer/.vim ~/.vim 
 
 
-<h3>Simple install in read only mode</h3>
-
-<p><b>vimmer</b> simple install using curl</p>
-
-	$curl https://raw.github.com/mlinuxgada/vimmer/master/installer.sh | sh
