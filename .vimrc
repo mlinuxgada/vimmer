@@ -35,7 +35,7 @@ set ignorecase
 set smartcase
 set wildmode=list:longest
 
-set tags=./tags,tags;           " set tags .. must have ctags already installed
+set tags=./.tags,.tags;           " set tags .. must have ctags already installed
 
 filetype plugin indent on
 
