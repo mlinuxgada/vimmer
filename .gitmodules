@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/vim-snipmate-snippets"]
 	path = .vim/bundle/vim-snipmate-snippets
 	url = https://github.com/honza/snipmate-snippets.git
+[submodule ".vim/bundle/vim-tasklist"]
+	path = .vim/bundle/vim-tasklist
+	url = https://github.com/vim-scripts/TaskList.vim.git
