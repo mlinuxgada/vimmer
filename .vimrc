@@ -40,6 +40,9 @@ set tags=./.tags,.tags;           " set tags .. must have ctags already installe
 
 filetype plugin indent on
 
+set foldmethod=indent
+set foldlevel=99
+
 " Casual mappings
 map <silent> <C-a> GVgg
 map <silent> <C-t> :tabnew <CR>
