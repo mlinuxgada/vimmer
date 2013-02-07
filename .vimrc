@@ -27,6 +27,7 @@ set autoread              " reload file if changed externally - stopped for now
 set history=1001          " set history to 1001 ;-)
 set tabstop=4             " tab width settings
 set shiftwidth=4
+set clipboard=unnamedplus " copy and use across all X apps 
 
 set nobackup              " get rid of the vim *.swp and backup files
 set noswapfile            " remove swap file from here
