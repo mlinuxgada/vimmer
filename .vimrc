@@ -46,6 +46,7 @@ set foldlevel=99
 " Casual mappings
 map <silent> <C-a> GVgg
 map <silent> <C-t> :tabnew <CR>
+map <C-F> <esc>:Grep<CR>
 
 " Home key mapping
 imap <esc>OH <esc>0i

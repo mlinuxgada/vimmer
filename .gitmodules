@@ -55,3 +55,6 @@
 [submodule ".vim/bundle/vim-tasklist"]
 	path = .vim/bundle/vim-tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule ".vim/bundle/vim-grep"]
+	path = .vim/bundle/vim-grep
+	url = git://github.com/vim-scripts/grep.vim.git

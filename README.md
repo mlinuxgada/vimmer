@@ -95,5 +95,10 @@
 		<td>more info: <a href="https://github.com/vim-scripts/TaskList.vim">TaskList Plugin</a></td>
 	</tr>
 
+	<tr>
+		<td>Grep</td>
+		<td>more info: <a href="https://github.com/vim-scripts/grep.vim">Grep Plugin</a></td>
+	</tr>
+
 
 </table>
