@@ -25,12 +25,37 @@
 
 <table>
 	<tr>
-		<td>NERDTree Plugin</td>
+		<td>NERDTree</td>
 		<td>more info: <a href="https://github.com/jistr/vim-nerdtree-tabs">NERDTree Plugin</a></td>
 	</tr>
 
 	<tr>
-		<td>FuzzyFinder Plugin</td>
+		<td>Fugitive</td>
+		<td>more info: <a href="https://github.com/tpope/vim-fugitive">Fugitive Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>Repeat</td>
+		<td>more info: <a href="https://github.com/tpope/vim-repeat">Repeat Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>Surround</td>
+		<td>more info: <a href="https://github.com/tpope/vim-surround">Surround Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>Taglist</td>
+		<td>more info: <a href="https://github.com/chrismetcalf/vim-taglist">Taglist Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>Rails</td>
+		<td>more info: <a href="https://github.com/tpope/vim-rails">Rails Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>FuzzyFinder</td>
 		<td>more info: <a href="https://github.com/vim-scripts/FuzzyFinder">FuzzyFinder Plugin</a></td>
 	</tr>
 
@@ -63,6 +88,11 @@
 	<tr>
 		<td>SnipMate</td>
 		<td>more info: <a href="https://github.com/garbas/vim-snipmate">SnipMate Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>TaskList</td>
+		<td>more info: <a href="https://github.com/vim-scripts/TaskList.vim">TaskList Plugin</a></td>
 	</tr>
 
 
