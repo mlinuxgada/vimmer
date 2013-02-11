@@ -31,9 +31,6 @@
 [submodule ".vim/bundle/vim-tabular"]
 	path = .vim/bundle/vim-tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule ".vim/bundle/vim-svndiff"]
-	path = .vim/bundle/vim-svndiff
-	url = https://github.com/vim-scripts/svndiff.git
 [submodule ".vim/bundle/vim-supertab"]
 	path = .vim/bundle/vim-supertab
 	url = https://github.com/ervandew/supertab.git
@@ -58,3 +55,6 @@
 [submodule ".vim/bundle/vim-grep"]
 	path = .vim/bundle/vim-grep
 	url = git://github.com/vim-scripts/grep.vim.git
+[submodule ".vim/bundle/vim-vcscommand"]
+	path = .vim/bundle/vim-vcscommand
+	url = git://github.com/vim-scripts/vcscommand.vim.git

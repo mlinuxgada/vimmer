@@ -16,8 +16,10 @@ endif
 syntax on
 syntax enable
 set t_Co=256
-set background=dark
-colorscheme mlinuxgada
+if &t_Co >= 256
+	set background=dark
+	colorscheme mlinuxgada
+endif
 
 set title                 " set tile here
 set mouse=a               " enable mouse
