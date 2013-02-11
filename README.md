@@ -70,8 +70,8 @@
 	</tr>
 
 	<tr>
-		<td>SVNDiff</td>
-		<td>more info: <a href="https://github.com/vim-scripts/svndiff">SVNDiff Plugin</a></td>
+		<td>VCSCommand</td>
+		<td>more info: <a href="https://github.com/vim-scripts/vcscommand.vim">VCSCommand Plugin</a></td>
 	</tr>
 
 
