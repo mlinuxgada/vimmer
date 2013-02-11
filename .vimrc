@@ -27,6 +27,7 @@ set number                " show line numbers
 set cursorline            " show cursor line
 set autoread              " reload file if changed externally - stopped for now
 set history=1001          " set history to 1001 ;-)
+set spell 				  " set spellcheking on
 set tabstop=4             " tab width settings
 set shiftwidth=4
 set clipboard=unnamedplus " copy and use across all X apps 
@@ -89,7 +90,7 @@ endif
 
 " VCSCommand pluging section
 
-	noremap <F3> :VCSVimDiff <CR> 	" show svndiff within vimdiff, useful  ;-)
+	noremap <F3> :tab split <CR> :VCSVimDiff <CR> 	" show svndiff within vimdiff, useful  ;-)
 
 " end of vcscommand plugin customizations
 
