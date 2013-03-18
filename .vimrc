@@ -16,9 +16,11 @@ endif
 syntax on
 syntax enable
 set t_Co=256
+let g:solarized_termcolors=256
 if &t_Co >= 256
 	set background=dark
-	colorscheme mlinuxgada
+	"colorscheme mlinuxgada " my custom theme
+	colorscheme solarized
 endif
 
 set title                 " set tile here
@@ -60,6 +62,9 @@ nmap <esc>OF $
 imap <esc>OF <esc>$a
 cmap <esc>OF <end>
 set pastetoggle=<F2>
+
+" open function definition in new tab
+nnoremap <C-]> :tabnew %<CR>g<C-]>
 
 " map autocomplete shortcut to Ctl + Space
 " both with or without gui
