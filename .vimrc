@@ -11,6 +11,7 @@ if has('win32') || has('win64')
 	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 endif
 
+
 " enable syntax highlighting, the color scheme to 256 colors, and the actual
 " color scheme
 syntax on
@@ -22,6 +23,16 @@ if &t_Co >= 256
 	"colorscheme mlinuxgada " my custom theme
 	colorscheme solarized
 endif
+
+let g:session_autosave = 'yes'
+let g:session_autoload = 'yes'
+" Save session on quitting Vim
+"autocmd VimLeave * NERDTreeTabsToggle
+"autocmd VimLeave * SessionSave! 
+
+" Restore session on starting Vim
+"autocmd OpenSession
+"autocmd VimEnter * NERDTreeTabsToggle
 
 set title                 " set tile here
 set mouse=a               " enable mouse
@@ -78,7 +89,7 @@ endif
 " Plugin mappings here 
 " NERDTree hacks here 
 	: nmap <F9> ::NERDTreeTabsToggle
-	let g:nerdtree_tabs_open_on_console_startup=1
+	"let g:nerdtree_tabs_open_on_console_startup=1
 	let NERDTreeShowHidden=1
 
 " FuzzyFinder remappings here 
@@ -111,3 +122,4 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd CursorHold * checktime
 autocmd CursorHoldI * checktime
 set updatetime=500
+
