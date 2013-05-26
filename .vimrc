@@ -24,16 +24,6 @@ if &t_Co >= 256
 	"colorscheme solarized
 endif
 
-let g:session_autosave = 'yes'
-let g:session_autoload = 'yes'
-" Save session on quitting Vim
-"autocmd VimLeave * NERDTreeTabsToggle
-"autocmd VimLeave * SessionSave! 
-
-" Restore session on starting Vim
-"autocmd OpenSession
-"autocmd VimEnter * NERDTreeTabsToggle
-
 set title                 " set tile here
 set mouse=a               " enable mouse
 set number                " show line numbers
@@ -44,7 +34,7 @@ set spell 				  " set spellcheking on
 set tabstop=4             " tab width settings
 set shiftwidth=4
 set clipboard=unnamedplus " copy and use across all X apps 
-set backspace=start       " make backspace delete on *BSD systems
+"set backspace=start       " make backspace delete on *BSD systems
 
 set nobackup              " get rid of the vim *.swp and backup files
 set noswapfile            " remove swap file from here
@@ -108,6 +98,17 @@ endif
 " VCSCommand pluging section
 
 	noremap <F3> :tab split <CR> :VCSVimDiff <CR> 	" show svndiff within vimdiff, useful  ;-)
+
+" Vim-sessions based settings
+	let g:session_autosave = 'yes'
+	let g:session_autoload = 'yes'
+	" Save session on quitting Vim
+	"autocmd VimLeave * NERDTreeTabsToggle
+	"autocmd VimLeave * SessionSave! 
+
+	" Restore session on starting Vim
+	"autocmd OpenSession
+	"autocmd VimEnter * NERDTreeTabsToggle
 
 " end of vcscommand plugin customizations
 
