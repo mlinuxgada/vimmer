@@ -50,11 +50,6 @@
 	</tr>
 
 	<tr>
-		<td>Rails</td>
-		<td>more info: <a href="https://github.com/tpope/vim-rails">Rails Plugin</a></td>
-	</tr>
-
-	<tr>
 		<td>FuzzyFinder</td>
 		<td>more info: <a href="https://github.com/vim-scripts/FuzzyFinder">FuzzyFinder Plugin</a></td>
 	</tr>
