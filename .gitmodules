@@ -1,9 +1,6 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -16,9 +13,6 @@
 [submodule ".vim/bundle/vim-taglist"]
 	path = .vim/bundle/vim-taglist
 	url = https://github.com/chrismetcalf/vim-taglist.git
-[submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
 [submodule ".vim/bundle/vim-nerdtree-tabs"]
 	path = .vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
@@ -37,18 +31,12 @@
 [submodule ".vim/bundle/vim-zencoding"]
 	path = .vim/bundle/vim-zencoding
 	url = git://github.com/mattn/zencoding-vim.git
-[submodule ".vim/bundle/vim-snipmate"]
-	path = .vim/bundle/vim-snipmate
-	url = git://github.com/garbas/vim-snipmate.git
 [submodule ".vim/bundle/vim-tlib"]
 	path = .vim/bundle/vim-tlib
 	url = https://github.com/tomtom/tlib_vim.git
 [submodule ".vim/bundle/vim-addon-mw-utils"]
 	path = .vim/bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule ".vim/bundle/vim-snipmate-snippets"]
-	path = .vim/bundle/vim-snipmate-snippets
-	url = https://github.com/honza/snipmate-snippets.git
 [submodule ".vim/bundle/vim-tasklist"]
 	path = .vim/bundle/vim-tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
@@ -58,9 +46,6 @@
 [submodule ".vim/bundle/vim-vcscommand"]
 	path = .vim/bundle/vim-vcscommand
 	url = git://github.com/vim-scripts/vcscommand.vim.git
-[submodule ".vim/bundle/vim-pyflakes"]
-	path = .vim/bundle/vim-pyflakes
-	url = https://github.com/mitechie/pyflakes-pathogen.git
 [submodule ".vim/bundle/vim-scala"]
 	path = .vim/bundle/vim-scala
 	url = git://github.com/derekwyatt/vim-scala.git
