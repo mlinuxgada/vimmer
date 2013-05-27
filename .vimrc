@@ -111,6 +111,54 @@ endif
 	"autocmd VimEnter * NERDTreeTabsToggle
 
 " end of vcscommand plugin customizations
+"
+
+	" Vim-Signify
+	let g:signify_vcs_list = [ 'git', 'hg', 'svn' ]
+	
+	let g:signify_mapping_next_hunk = '<leader>gj'
+	let g:signify_mapping_prev_hunk = '<leader>gk'
+	
+	let g:signify_mapping_toggle_highlight = '<leader>gh'
+	let g:signify_mapping_toggle           = '<leader>gt'
+	
+	let g:signify_skip_filetype = { 'vim': 1, 'c': 1 }
+	let g:signify_skip_filename = { '~/.vimrc': 1 }
+	
+	let g:signify_sign_overwrite = 1
+	
+	let g:signify_update_on_bufenter = 1
+	
+	let g:signify_line_highlight = 1
+	
+	let g:signify_sign_weight = 'bold'
+	
+	let g:signify_sign_add               = '+'
+	let g:signify_sign_delete            = '-'
+	let g:signify_sign_change            = '*'
+	let g:signify_sign_change_delete     = '*_'
+	let g:signify_sign_delete_first_line = '‾'
+	
+	let g:signify_sign_color_guifg_add      = '#00ff00'
+	let g:signify_sign_color_guifg_delete   = '#ff0000'
+	let g:signify_sign_color_guifg_change   = '#ffff00'
+	let g:signify_sign_color_guibg          = '#111111'
+	
+	let g:signify_sign_color_ctermfg_add    = 2
+	let g:signify_sign_color_ctermfg_delete = 1
+	let g:signify_sign_color_ctermfg_change = 3
+	let g:signify_sign_color_ctermbg        = 0
+	
+	let g:signify_sign_color_group_add    = 'MyAdd'
+	let g:signify_sign_color_group_delete = 'MyDelete'
+	let g:signify_sign_color_group_change = 'MyChange'
+	
+	let g:signify_line_color_add    = 'DiffAdd'
+	let g:signify_line_color_delete = 'DiffDelete'
+	let g:signify_line_color_change = 'DiffChange'
+	
+	let g:signify_cursorhold_normal = 1
+	let g:signify_cursorhold_insert = 1
 
 " the completion for the following filetypes
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
