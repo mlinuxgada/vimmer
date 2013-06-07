@@ -67,6 +67,8 @@ set pastetoggle=<F2>
 
 " open function definition in new tab
 nnoremap <C-]> :tabnew %<CR>g<C-]>
+nnoremap <C-Up> gT
+nnoremap <C-Down> gt
 
 " map autocomplete shortcut to Ctl + Space
 " both with or without gui
