@@ -20,8 +20,8 @@ set t_Co=256
 let g:solarized_termcolors=256
 if &t_Co >= 256
 	set background=dark
-	colorscheme mlinuxgada " my custom theme
-	"colorscheme solarized
+	"colorscheme mlinuxgada " my custom theme
+	colorscheme solarized
 endif
 
 set title                 " set tile here
