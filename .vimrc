@@ -162,6 +162,8 @@ endif
 	let g:signify_cursorhold_normal = 1
 	let g:signify_cursorhold_insert = 1
 
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
 " the completion for the following filetypes
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
