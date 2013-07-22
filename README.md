@@ -97,3 +97,29 @@
 
 
 </table>
+
+<h3>Shortcuts Cheatsheet</h3>
+
+In Command/Visual Mode:
+
+	:e path/to/the/filename - opens the defined filename
+	:w - saves the current buffer
+	:wa - save all
+	:q - quit
+	:qa - quit all
+	/search_string - performs a search in the current buffer for 'search_string' string
+	% - when on open bracket, for instance '{' it ports to its closing bracket, very usefull
+	= - formats the previously marked code 
+
+	:Tab /= - allignes the marked code , indenting it properly , using '=' as alignment separator
+
+	Ctl + t - creates new NERDTree tab just after the current tab
+	Ctl + f - grep, with several steps - the searched string, path/to/dir , and more
+	Ctl + p - "fuzzy" search
+	ZZ 		- saves and quits, short command to :wq
+	ZQ 		- quits without saving the current buffer, same as :q!
+
+<h5>In NERDTree</h5>
+	
+	O - that is a capital o - expands all subdirs from the currently selected dir
+	F9 - toggles NERDTree on/off
