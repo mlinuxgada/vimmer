@@ -24,9 +24,10 @@
 <h3>Plugins</h3>
 
 <table>
+
 	<tr>
-		<td>NERDTree</td>
-		<td>more info: <a href="https://github.com/jistr/vim-nerdtree-tabs">NERDTree Plugin</a></td>
+		<td>Autoclose</td>
+		<td>more info: <a href="http://www.vim.org/scripts/script.php?script_id=1849">Autoclose Plugin</a></td>
 	</tr>
 
 	<tr>
@@ -35,23 +36,46 @@
 	</tr>
 
 	<tr>
+		<td>FuzzyFinder</td>
+		<td>more info: <a href="https://github.com/vim-scripts/FuzzyFinder">FuzzyFinder Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>Grep</td>
+		<td>more info: <a href="https://github.com/vim-scripts/grep.vim">Grep Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>NERDTree</td>
+		<td>more info: <a href="https://github.com/jistr/vim-nerdtree-tabs">NERDTree Plugin</a></td>
+	</tr>
+
+	<tr>
 		<td>Repeat</td>
 		<td>more info: <a href="https://github.com/tpope/vim-repeat">Repeat Plugin</a></td>
 	</tr>
 
+	<tr>
+		<td>Scala</td>
+		<td>more info: <a href="https://github.com/derekwyatt/vim-scala" >Scala Plugin</a></td>
+	</tr>
+	<tr>
+		<td>Session</td>
+		<td>more info: <a href="https://github.com/xolox/vim-session" >Session</a></td>
+	</tr>
 	<tr>
 		<td>Surround</td>
 		<td>more info: <a href="https://github.com/tpope/vim-surround">Surround Plugin</a></td>
 	</tr>
 
 	<tr>
-		<td>Taglist</td>
-		<td>more info: <a href="https://github.com/chrismetcalf/vim-taglist">Taglist Plugin</a></td>
+		<td>SnipMate</td>
+		<td>more info: <a href="https://github.com/garbas/vim-snipmate">SnipMate Plugin</a></td>
 	</tr>
 
 	<tr>
-		<td>FuzzyFinder</td>
-		<td>more info: <a href="https://github.com/vim-scripts/FuzzyFinder">FuzzyFinder Plugin</a></td>
+		<td>SuperTab</td>
+		<td>more info: <a href="https://github.com/ervandew/supertab">SuperTab Plugin</a></td>
 	</tr>
 
 	<tr>
@@ -64,25 +88,10 @@
 		<td>more info: <a href="https://github.com/godlygeek/tabular">Tabular Plugin</a></td>
 	</tr>
 
-	<tr>
-		<td>VCSCommand</td>
-		<td>more info: <a href="https://github.com/vim-scripts/vcscommand.vim">VCSCommand Plugin</a></td>
-	</tr>
-
 
 	<tr>
-		<td>SuperTab</td>
-		<td>more info: <a href="https://github.com/ervandew/supertab">SuperTab Plugin</a></td>
-	</tr>
-
-	<tr>
-		<td>ZenCoding</td>
-		<td>more info: <a href="https://github.com/mattn/zencoding-vim">ZenCoding Plugin</a></td>
-	</tr>
-
-	<tr>
-		<td>SnipMate</td>
-		<td>more info: <a href="https://github.com/garbas/vim-snipmate">SnipMate Plugin</a></td>
+		<td>Taglist</td>
+		<td>more info: <a href="https://github.com/chrismetcalf/vim-taglist">Taglist Plugin</a></td>
 	</tr>
 
 	<tr>
@@ -91,8 +100,12 @@
 	</tr>
 
 	<tr>
-		<td>Grep</td>
-		<td>more info: <a href="https://github.com/vim-scripts/grep.vim">Grep Plugin</a></td>
+		<td>VCSCommand</td>
+		<td>more info: <a href="https://github.com/vim-scripts/vcscommand.vim">VCSCommand Plugin</a></td>
+	</tr>
+	<tr>
+		<td>ZenCoding</td>
+		<td>more info: <a href="https://github.com/mattn/zencoding-vim">ZenCoding Plugin</a></td>
 	</tr>
 
 
