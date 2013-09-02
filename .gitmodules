@@ -58,6 +58,3 @@
 [submodule ".vim/bundle/vim-snipmate"]
 	path = .vim/bundle/vim-snipmate
 	url = git://github.com/msanders/snipmate.vim.git
-[submodule ".vim/bundle/vim-you_complete_me"]
-	path = .vim/bundle/vim-you_complete_me
-	url = https://github.com/Valloric/YouCompleteMe.git
