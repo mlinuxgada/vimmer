@@ -34,7 +34,7 @@ set spell 				  " set spellcheking on
 set tabstop=4             " tab width settings
 set shiftwidth=4
 set clipboard=unnamedplus " copy and use across all X apps 
-"set backspace=start       " make backspace delete on *BSD systems
+set backspace=indent,eol,start " make backspace delete on *BSD systems
 
 set nobackup              " get rid of the vim *.swp and backup files
 set noswapfile            " remove swap file from here
