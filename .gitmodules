@@ -28,9 +28,6 @@
 [submodule ".vim/bundle/vim-supertab"]
 	path = .vim/bundle/vim-supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule ".vim/bundle/vim-zencoding"]
-	path = .vim/bundle/vim-zencoding
-	url = git://github.com/mattn/zencoding-vim.git
 [submodule ".vim/bundle/vim-tlib"]
 	path = .vim/bundle/vim-tlib
 	url = https://github.com/tomtom/tlib_vim.git
