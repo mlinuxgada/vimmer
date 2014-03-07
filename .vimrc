@@ -68,8 +68,8 @@ set pastetoggle=<F2>
 
 " open function definition in new tab
 nnoremap <C-]> :tabnew %<CR>g<C-]>
-nnoremap <C-Up> gT
-nnoremap <C-Down> gt
+nnoremap <M-Left> gT
+nnoremap <M-Right> gt
 
 " map autocomplete shortcut to Ctl + Space
 " both with or without gui
@@ -117,7 +117,7 @@ endif
 "
 
 	" Vim-Signify
-	let g:signify_vcs_list = [ 'git', 'hg', 'svn' ]
+	let g:signify_vcs_list = [ 'git', 'svn' ]
 	
 	let g:signify_mapping_next_hunk = '<leader>gj'
 	let g:signify_mapping_prev_hunk = '<leader>gk'
