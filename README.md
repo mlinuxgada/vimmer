@@ -107,6 +107,11 @@
 		<td>ZenCoding</td>
 		<td>more info: <a href="https://github.com/mattn/zencoding-vim">ZenCoding Plugin</a></td>
 	</tr>
+	<tr>
+		<td>tComment</td>
+		<td>more info: <a href="https://github.com/vim-scripts/tComment">tComment Plugin</a></td>
+	</tr>
+
 
 
 </table>
@@ -136,3 +141,23 @@ In Command/Visual Mode:
 
 	O                       - that is a capital o - expands all subdirs from the currently selected dir
 	F9                      - toggles NERDTree on/off
+
+<h5>tComment</h5>
+    gc{motion}   :: Toggle comments (for small comments within one line 
+                    the &filetype_inline style will be used, if 
+                    defined)
+	gcc          :: Toggle comment for the current line
+	gC{motion}   :: Comment region
+	gCc          :: Comment the current line
+
+Primary key maps:
+
+	<c-_><c-_>   :: :TComment
+	<c-_><space> :: :TComment <QUERY COMMENT-BEGIN ?COMMENT-END>
+	<c-_>b       :: :TCommentBlock
+	<c-_>a       :: :TCommentAs <QUERY COMMENT TYPE>
+	<c-_>n       :: :TCommentAs &filetype <QUERY COUNT>
+	<c-_>s       :: :TCommentAs &filetype_<QUERY COMMENT SUBTYPE>
+	<c-_>i       :: :TCommentInline
+	<c-_>r       :: :TCommentRight
+	<c-_>p       :: Comment the current inner paragraph
