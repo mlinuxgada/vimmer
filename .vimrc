@@ -17,11 +17,14 @@ endif
 syntax on
 syntax enable
 set t_Co=256
-let g:solarized_termcolors=256
 if &t_Co >= 256
+	let g:solarized_termcolors = 256
+	let g:solarized_visibility = "high"
+	let g:solarized_contrast = "high"
 	set background=dark
 	"colorscheme mlinuxgada " my custom theme
-	colorscheme solarized
+	"colorscheme solarized
+	colorscheme zenburn
 endif
 
 set title                 " set tile here

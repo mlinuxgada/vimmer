@@ -55,3 +55,6 @@
 [submodule ".vim/bundle/vim-snipmate"]
 	path = .vim/bundle/vim-snipmate
 	url = git://github.com/msanders/snipmate.vim.git
+[submodule ".vim/bundle/vim-tcomment"]
+	path = .vim/bundle/vim-tcomment
+	url = https://github.com/vim-scripts/tComment.git
