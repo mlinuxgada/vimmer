@@ -103,10 +103,12 @@
 		<td>VCSCommand</td>
 		<td>more info: <a href="https://github.com/vim-scripts/vcscommand.vim">VCSCommand Plugin</a></td>
 	</tr>
+	<!--
 	<tr>
 		<td>ZenCoding</td>
 		<td>more info: <a href="https://github.com/mattn/zencoding-vim">ZenCoding Plugin</a></td>
 	</tr>
+	-->
 	<tr>
 		<td>tComment</td>
 		<td>more info: <a href="https://github.com/vim-scripts/tComment">tComment Plugin</a></td>
