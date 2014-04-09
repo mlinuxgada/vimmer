@@ -58,3 +58,6 @@
 [submodule ".vim/bundle/vim-tcomment"]
 	path = .vim/bundle/vim-tcomment
 	url = https://github.com/vim-scripts/tComment.git
+[submodule ".vim/bundle/vim-airline"]
+	path = .vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git

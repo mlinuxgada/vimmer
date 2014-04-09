@@ -83,6 +83,10 @@ else
 endif
 
 " Plugin mappings here 
+" Airline
+	let g:airline#extensions#tabline#enabled = 1
+	let g:airline_enable_hunks = 0
+	let g:airline_powerline_fonts=1
 " NERDTree hacks here 
 	: nmap <F9> ::NERDTreeTabsToggle
 	"let g:nerdtree_tabs_open_on_console_startup=1
