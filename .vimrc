@@ -39,6 +39,7 @@ set shiftwidth=4
 set clipboard=unnamedplus " copy and use across all X apps 
 set backspace=indent,eol,start " make backspace delete on *BSD systems
 set t_ut=
+let &colorcolumn=join(range(82, 255), ',')
 
 set nobackup              " get rid of the vim *.swp and backup files
 set noswapfile            " remove swap file from here
