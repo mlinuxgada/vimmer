@@ -64,3 +64,9 @@
 [submodule ".vim/bundle/vim-hack"]
 	path = .vim/bundle/vim-hack
 	url = git://github.com/hhvm/vim-hack.git
+[submodule ".vim/bundle/vim-emmet"]
+	path = .vim/bundle/vim-emmet
+	url = git@github.com:mlinuxgada/vim-emmet.git
+[submodule ".vim/bundle/vim-python-mode"]
+	path = .vim/bundle/vim-python-mode
+	url = git@github.com:mlinuxgada/python-mode.git
