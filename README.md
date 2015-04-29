@@ -56,6 +56,11 @@
 	</tr>
 
 	<tr>
+		<td>Rails</td>
+		<td>more info: <a href="https://github.com/tpope/vim-rails">Rails Plugin</a></td>
+	</tr>
+
+	<tr>
 		<td>Scala</td>
 		<td>more info: <a href="https://github.com/derekwyatt/vim-scala" >Scala Plugin</a></td>
 	</tr>
