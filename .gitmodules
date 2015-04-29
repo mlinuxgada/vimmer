@@ -70,3 +70,9 @@
 [submodule ".vim/bundle/vim-python-mode"]
 	path = .vim/bundle/vim-python-mode
 	url = git@github.com:mlinuxgada/python-mode.git
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule ".vim/bundle/vim-bundler"]
+	path = .vim/bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler.git
