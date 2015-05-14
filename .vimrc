@@ -17,7 +17,7 @@ endif
 syntax on
 syntax enable
 set t_Co=256
-if &t_Co >= 256
+if &t_Co >= 256 || has("gui_running")
 	let g:solarized_termcolors = 256
 	let g:solarized_visibility = "high"
 	let g:solarized_contrast = "high"
@@ -56,6 +56,8 @@ filetype plugin indent on
 
 set foldmethod=indent
 set foldlevel=99
+
+set nolist
 
 " Casual mappings
 map <silent> <C-a> GVgg
