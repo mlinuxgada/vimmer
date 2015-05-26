@@ -23,7 +23,6 @@ if &t_Co >= 256 || has("gui_running")
 	let g:solarized_contrast = "high"
 	set background=dark
 	"colorscheme mlinuxgada " my custom theme
-	"colorscheme solarized
 	colorscheme zenburn
 endif
 
