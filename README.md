@@ -26,6 +26,13 @@
 <table>
 
 	<tr>
+		<td>Airline</td>
+		<td>more info: 
+			<a href="https://github.com/bling/vim-airline">Airline</a>
+		</td>
+	</tr>
+
+	<tr>
 		<td>Autoclose</td>
 		<td>more info: <a href="http://www.vim.org/scripts/script.php?script_id=1849">Autoclose Plugin</a></td>
 	</tr>
@@ -41,6 +48,13 @@
 	</tr>
 
 	<tr>
+		<td>vim-javascript</td>
+		<td>more info: <a href="https://github.com/pangloss/vim-javascript">
+			Vim Javascript Bundle</a>
+		</td>
+	</tr>
+
+	<tr>
 		<td>Grep</td>
 		<td>more info: <a href="https://github.com/vim-scripts/grep.vim">Grep Plugin</a></td>
 	</tr>
@@ -53,6 +67,13 @@
 	<tr>
 		<td>Repeat</td>
 		<td>more info: <a href="https://github.com/tpope/vim-repeat">Repeat Plugin</a></td>
+	</tr>
+
+	<tr>
+		<td>Python Mode</td>
+		<td>more info: 
+			<a href="https://github.com/mlinuxgada/python-mode">Python Mode</a>
+		</td>
 	</tr>
 
 	<tr>
@@ -108,12 +129,7 @@
 		<td>VCSCommand</td>
 		<td>more info: <a href="https://github.com/vim-scripts/vcscommand.vim">VCSCommand Plugin</a></td>
 	</tr>
-	<!--
-	<tr>
-		<td>ZenCoding</td>
-		<td>more info: <a href="https://github.com/mattn/zencoding-vim">ZenCoding Plugin</a></td>
-	</tr>
-	-->
+
 	<tr>
 		<td>tComment</td>
 		<td>more info: <a href="https://github.com/vim-scripts/tComment">tComment Plugin</a></td>
