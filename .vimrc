@@ -133,6 +133,11 @@ endif
 	" Restore session on starting Vim
 	"autocmd OpenSession
 	"autocmd VimEnter * NERDTreeTabsToggle
+	nnoremap <leader>so :OpenSession
+	nnoremap <leader>ss :SaveSession
+	nnoremap <leader>sd :DeleteSession
+	nnoremap <leader>sc :CloseSession
+
 
 " end of vcscommand plugin customizations
 "

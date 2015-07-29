@@ -27,6 +27,7 @@
 
 	<tr>
 		<td>Airline</td>
+		<td>Lean & mean status/tabline for vim that's light as air.</td>
 		<td>more info: 
 			<a href="https://github.com/bling/vim-airline">Airline</a>
 		</td>
@@ -34,21 +35,25 @@
 
 	<tr>
 		<td>Autoclose</td>
+		<td></td>
 		<td>more info: <a href="http://www.vim.org/scripts/script.php?script_id=1849">Autoclose Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>Fugitive</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/tpope/vim-fugitive">Fugitive Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>FuzzyFinder</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/vim-scripts/FuzzyFinder">FuzzyFinder Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>vim-javascript</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/pangloss/vim-javascript">
 			Vim Javascript Bundle</a>
 		</td>
@@ -56,21 +61,25 @@
 
 	<tr>
 		<td>Grep</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/vim-scripts/grep.vim">Grep Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>NERDTree</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/jistr/vim-nerdtree-tabs">NERDTree Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>Repeat</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/tpope/vim-repeat">Repeat Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>Python Mode</td>
+		<td></td>
 		<td>more info: 
 			<a href="https://github.com/mlinuxgada/python-mode">Python Mode</a>
 		</td>
@@ -78,60 +87,72 @@
 
 	<tr>
 		<td>Rails</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/tpope/vim-rails">Rails Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>Scala</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/derekwyatt/vim-scala" >Scala Plugin</a></td>
 	</tr>
 	<tr>
 		<td>Session</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/xolox/vim-session" >Session</a></td>
 	</tr>
 	<tr>
 		<td>Surround</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/tpope/vim-surround">Surround Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>SnipMate</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/garbas/vim-snipmate">SnipMate Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>SuperTab</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/ervandew/supertab">SuperTab Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>Synastic</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/scrooloose/syntastic">Synastic Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>Tabular</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/godlygeek/tabular">Tabular Plugin</a></td>
 	</tr>
 
 
 	<tr>
 		<td>Taglist</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/chrismetcalf/vim-taglist">Taglist Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>TaskList</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/vim-scripts/TaskList.vim">TaskList Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>VCSCommand</td>
+		<td></td>
 		<td>more info: <a href="https://github.com/vim-scripts/vcscommand.vim">VCSCommand Plugin</a></td>
 	</tr>
 
 	<tr>
 		<td>tComment</td>
+		<td>An extensible & universal comment plugin that also handles embedded filetypes</td>
 		<td>more info: <a href="https://github.com/vim-scripts/tComment">tComment Plugin</a></td>
 	</tr>
 
