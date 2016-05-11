@@ -108,6 +108,12 @@ endif
 	let Tlist_Close_On_Select   = 1
 	" let Tlist_Display_Prototype = 1
 	" let Tlist_Auto_Open = 1
+
+" Vim Typescript Options/Mods here
+
+	let g:typescript_indent_disable = 1
+	autocmd QuickFixCmdPost [^l]* nested cwindow
+	autocmd QuickFixCmdPost    l* nested lwindow
 	
 " Python Mode plugin settings
 	" Override go-to.definition key shortcut to Ctrl-]
