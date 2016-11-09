@@ -33,8 +33,12 @@ set cursorline            " show cursor line
 set autoread              " reload file if changed externally - stopped for now
 set history=1001          " set history to 1001 ;-)
 set spell 				  " set spellcheking on
+
 set tabstop=4             " tab width settings
+set softtabstop=4   " Sets the number of columns for a TAB
+set expandtab       " Expand TABs to spaces   "
 set shiftwidth=4
+
 set clipboard=unnamedplus " copy and use across all X apps 
 set backspace=indent,eol,start " make backspace delete on *BSD systems
 set t_ut=
