@@ -85,3 +85,6 @@
 [submodule ".vim/bundle/vim-typescript"]
 	path = .vim/bundle/vim-typescript
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule ".vim/bundle/vim-misc"]
+	path = .vim/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc.git
