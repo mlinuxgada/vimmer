@@ -34,9 +34,6 @@
 [submodule ".vim/bundle/vim-addon-mw-utils"]
 	path = .vim/bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule ".vim/bundle/vim-tasklist"]
-	path = .vim/bundle/vim-tasklist
-	url = https://github.com/vim-scripts/TaskList.vim.git
 [submodule ".vim/bundle/vim-grep"]
 	path = .vim/bundle/vim-grep
 	url = git://github.com/vim-scripts/grep.vim.git
@@ -61,9 +58,6 @@
 [submodule ".vim/bundle/vim-emmet"]
 	path = .vim/bundle/vim-emmet
 	url = git@github.com:mlinuxgada/vim-emmet.git
-[submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
 [submodule ".vim/bundle/vim-bundler"]
 	path = .vim/bundle/vim-bundler
 	url = git://github.com/tpope/vim-bundler.git
