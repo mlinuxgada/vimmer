@@ -61,9 +61,6 @@
 [submodule ".vim/bundle/vim-emmet"]
 	path = .vim/bundle/vim-emmet
 	url = git@github.com:mlinuxgada/vim-emmet.git
-[submodule ".vim/bundle/vim-python-mode"]
-	path = .vim/bundle/vim-python-mode
-	url = git@github.com:mlinuxgada/python-mode.git
 [submodule ".vim/bundle/vim-rails"]
 	path = .vim/bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
