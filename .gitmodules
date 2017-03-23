@@ -16,9 +16,6 @@
 [submodule ".vim/bundle/vim-tabular"]
 	path = .vim/bundle/vim-tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule ".vim/bundle/vim-supertab"]
-	path = .vim/bundle/vim-supertab
-	url = https://github.com/ervandew/supertab.git
 [submodule ".vim/bundle/vim-tlib"]
 	path = .vim/bundle/vim-tlib
 	url = https://github.com/tomtom/tlib_vim.git
