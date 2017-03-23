@@ -103,6 +103,9 @@ endif
 " FuzzyFinder remappings here 
 	nmap <silent> <C-p> :FufFile **/<CR>
 
+" Go plugin here 
+    let g:go_fmt_autosave = 0
+
 " map the Taglist and place it on the left
 	map <F12> <Esc>:TlistToggle<CR>:set nonu<CR><C-W>l
 	let Tlist_Use_Right_Window  = 1
