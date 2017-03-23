@@ -52,9 +52,6 @@
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
-[submodule ".vim/bundle/vim-dirdiff"]
-	path = .vim/bundle/vim-dirdiff
-	url = git@github.com:vim-scripts/DirDiff.vim.git
 [submodule ".vim/bundle/vim-node"]
 	path = .vim/bundle/vim-node
 	url = git@github.com:moll/vim-node.git
