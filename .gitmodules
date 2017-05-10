@@ -58,3 +58,12 @@
 [submodule ".vim/bundle/vim-supertab"]
 	path = .vim/bundle/vim-supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule ".vim/bundle/pdv"]
+	path = .vim/bundle/pdv
+	url = git@github.com:tobyS/pdv.git
+[submodule ".vim/bundle/vmustache"]
+	path = .vim/bundle/vmustache
+	url = git@github.com:tobyS/vmustache.git
+[submodule ".vim/bundle/ultisnips"]
+	path = .vim/bundle/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
