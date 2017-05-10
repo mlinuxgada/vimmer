@@ -107,7 +107,6 @@ endif
     let g:go_fmt_autosave = 0
 
 " PDV new version
-    "let g:pdv_template_dir = "~/.vim/bundle/vim-pdv/templates_snip"
     let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
     " nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
     nnoremap <buffer> <C-p> :call pdv#DocumentCurrentLine()<CR>
