@@ -108,8 +108,7 @@ endif
 
 " PDV new version
     let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
-    " nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
-    nnoremap <buffer> <C-p> :call pdv#DocumentCurrentLine()<CR>
+    nnoremap <silent> <C-p> :call pdv#DocumentWithSnip()<CR>
 
 " map the Taglist and place it on the left
 	map <F12> <Esc>:TlistToggle<CR>:set nonu<CR><C-W>l
