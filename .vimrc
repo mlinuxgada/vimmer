@@ -95,6 +95,12 @@ endif
 	let g:airline#extensions#tabline#enabled = 1
 	let g:airline_enable_hunks = 0
 	let g:airline_powerline_fonts=1
+
+" Ale
+let g:ale_linters = {
+\   'php': ['php'],
+\}
+
 " NERDTree hacks here 
 	: nmap <F9> ::NERDTreeTabsToggle
 	"let g:nerdtree_tabs_open_on_console_startup=1
