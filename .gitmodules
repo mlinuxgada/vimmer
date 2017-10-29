@@ -10,9 +10,6 @@
 [submodule ".vim/bundle/vim-fuzzyfinder"]
 	path = .vim/bundle/vim-fuzzyfinder
 	url = https://github.com/vim-scripts/FuzzyFinder.git
-[submodule ".vim/bundle/vim-synastic"]
-	path = .vim/bundle/vim-synastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule ".vim/bundle/vim-tabular"]
 	path = .vim/bundle/vim-tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -67,3 +64,6 @@
 [submodule ".vim/bundle/ultisnips"]
 	path = .vim/bundle/ultisnips
 	url = git@github.com:SirVer/ultisnips.git
+[submodule ".vim/bundle/vim-ale"]
+	path = .vim/bundle/vim-ale
+	url = https://github.com/w0rp/ale
