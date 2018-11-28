@@ -6,6 +6,11 @@ set nocompatible
 " invoke the pathogen here
 call pathogen#infect()
 
+" vim-plug initiation here ...
+call plug#begin('~/.vim/plugged')
+Plug 'kylef/apiblueprint.vim'
+call plug#end()
+
 " we are in windows env
 if has('win32') || has('win64')
 	set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
@@ -65,7 +70,8 @@ set nolist
 " Casual mappings
 map <silent> <C-a> GVgg
 map <silent> <C-t> :tabnew <CR>
-map <C-F> <esc>:Rgrep<CR>
+autocmd VimEnter * map <silent> <C-t> :tabnew <CR>
+map <C-F> gq=
 
 " Home key mapping
 imap <esc>OH <esc>0i
@@ -214,6 +220,8 @@ let g:ale_linters = {
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
+set filetype=on
+
 " the completion for the following filetypes
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
@@ -224,5 +232,11 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 autocmd CursorHold * checktime
 autocmd CursorHoldI * checktime
+
+" Format/Indentators here
+" autocmd BufNewFile,BufRead *.php set formatprg=astyle\ -T4pb
+autocmd FileType php set formatprg=astyle\ --style=allman
+" autocmd BufWritePost *.go :GoFmt
+
 set updatetime=500
 
