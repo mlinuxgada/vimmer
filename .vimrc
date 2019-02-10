@@ -107,6 +107,9 @@ let g:ale_linters = {
 \   'php': ['php'],
 \}
 
+" Apib related
+autocmd FileType apiblueprint nnoremap <C-b> :call GenerateRefract()<cr>
+
 " NERDTree hacks here 
 	: nmap <F9> ::NERDTreeTabsToggle
 	"let g:nerdtree_tabs_open_on_console_startup=1
